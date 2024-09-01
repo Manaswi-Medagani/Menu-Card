@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANU'S RESTAURENT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ce459c;
+        }
+
+        .menu-card {
+            width: 200px;
+            border: 1px solid #e02fc6;
+            border-radius: 5px;
+            background-color: #f3d8e4;
+            box-shadow: 0 4px 8px rgba(75, 1, 1, 0.1);
+            overflow: hidden;
+        }
+
+        .menu-card h2 {
+            margin: 0;
+            padding: 16px;
+            background-color: #007bff;
+            color: #c0277b;
+            text-align: center;
+        }
+
+        .menu-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-card li {
+            border-bottom: 1px solid #d40aa2;
+        }
+
+        .menu-card li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-card a {
+            display: block;
+            padding: 16px;
+            text-decoration: none;
+            color: #b69595;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .menu-card a:hover {
+            background-color: #083b72;
+            color: #440223;
+        }
+
+        .menu-card a::before {
+            content: '•';
+            color: #5313ca;
+            display: inline-block;
+            width: 20px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Nonveg-Items</a></li>
+            <li>Chicken Biryani</li>
+            <li>Chicken Friedrice</li>
+            <li>Mutton Dum Biryani</li>
+            <li><a href="#">Veg-Items</a></li>
+            <li>Veg Biryani</li>
+            <li>Veg Friedrice</li>
+            <li>Veg Pulao</li>
+            <li><a href="#">Special-Items</a></li>
+            <li>Ice Cream</li>
+            <li>Double Ka Meta</li>
+            <li>Choclate Cake</li>
+            <li><a href="#">Contact</a></li>
+            <li>7993118127</li>
+            <li>medaganimanaswi@gamil.com</li>
+         </ul>
+    </div>
+</body>
+</html>
